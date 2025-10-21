@@ -19,7 +19,7 @@ public class Bill {
             "Customer ID: " + customer.getId() + "\n" +
             "Name       : " + customer.getName() + "\n" +
             "Units Used : " + customer.getUnits() + "\n" +
-            "Amount Due : ₹" + amount + "\n" +
+            "Amount Due : ₹" + String.format("%.2f", amount) + "\n" +
             "Date       : " + date + "\n";
     }
 
